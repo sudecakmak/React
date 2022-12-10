@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #699fcc;
+}
+
+.auth-form, .register-form, .login-form {
+ display: flex;
+ flex-direction: column;
+}
+
+.auth-form {
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: medium;
+  font-weight: 500;
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+.or {
+  font-weight: 900;
+  text-align: center;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btngoogle {
+  border-radius: 25px;
+  margin: 0.34rem;
+  font-size: 15px;
+  padding: 15px;
+  font-weight: 500;
+}
+
+.btnface {
+  border-radius: 25px;
+  padding: 15px;
+  margin: 0.34rem;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.btnregister {
+  font-weight: 500;
+  background: none;
+  color: white;
+  text-decoration: underline;
+
+}
+
+.btnlogin {
+  font-weight: 500;
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.btnforgot {
+  font-weight: 500;
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
