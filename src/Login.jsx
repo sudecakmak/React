@@ -16,9 +16,6 @@ export const Login = (props) => {
     return(
         <div className="auth-form">
         <h2>Login</h2>
-        <button className="btngoogle"><FontAwesomeIcon icon={faGoogle} className="icongoogle" size="2x" />Log in with Google</button>
-        <button className="btnface"><FontAwesomeIcon icon={faFacebook} className="iconface" size="2x"/>Log in with Facebook</button>
-        <label className="or" htmlFor="Or">Or</label>
         <form 
         className="login-form" 
         onSubmit={handleSubmit}>
